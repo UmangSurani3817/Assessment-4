@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <link rel="icon" href="images/images.ico" type="text/x-icon">
+    <link type="text/stylesheet" rel="stylesheet" href="css/style.css">
+
+    <title>Rachayita Beauty Lab</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:coral;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img  src="images/6.png" style="width: 80px; height: 50px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" class="nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#" style="color: white; font-weight: 700;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white; font-weight: 700;">About US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white; font-weight: 700;">Client</a>
+              </li>
+              <li class="nav-item dropdown" style="color: white; font-weight: 700; background-color: coral;">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white; font-weight: 700; background-color: coral;">
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Hair Treatment</a></li>
+                  <li><a class="dropdown-item" href="#">Facial Treatment</a></li>
+                  <li><a class="dropdown-item" href="#">Bridal Make-up</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white; font-weight: 700; background-color: coral;;";>Portfolio</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Slider -->
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/2.jpeg" class="d-block w-100" style="width: 100%; height: 400px;" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/3.jpeg" class="d-block w-100" style="width: 100%; height: 400px;" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/4.jpeg" class="d-block w-100" style="width: 100%; height: 400px;" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container-fluid">
+        <!-- Tag Line -->
+        <div class="row">
+            <div class="col-12">
+                <h3 class="display-6 text-center mt-5 mb-2">Perfect place to make you glow.</h3>
+            </div>
+        </div>
+
+        <!-- Feature -->
+        <div class="row justify-content-evenly pt-3 pb-3">
+            <div class="col-md-3 text-center text-danger mt-5">
+                <h1><i class="bi bi-suit-heart-fill"></i></h1>
+                <h3 class="text-dark">Hair Treatment</h3>
+                <p class="text-dark">Hair treatments encompass a wide range of procedures and products designed to improve the health and appearance of hair.</p>
+            </div>
+            <div class="col-md-3 text-center text-primary mt-5">
+                <h1><i class="bi bi-yelp"></i></h1>
+                <h3 class="text-dark">Facial Treatment</h3>
+                <p class="text-dark">Facial treatments can be tailored to individual skin types and concerns, such as acne, aging, dryness, or sensitivity. It's essential to consult with a licensed esthetician or dermatologist to determine the most suitable facial treatment for your skin.</p>
+            </div>
+            <div class="col-md-3 text-center text-success mt-5">
+                <h1><i class="bi bi-vimeo"></i></h1>
+                <h3 class="text-dark">Bridal Makeup</h3>
+                <p class="text-dark">Bridal makeup is a specialized form of makeup artistry designed to enhance a bride's natural beauty on her wedding day.</p>
+                
+            </div>
+        </div>
+
+        <!-- line -->
+        <hr>
+
+        <!-- Our Speciality -->
+        <div class="row justify-content-evenly pt-3 pb-5 bg-dark text-white">
+          <div class="col-md-5 pt-3">
+            <img src="images/2.webp" class="img-fluid">
+          </div>
+          <div class="col-md-5 pt-4">
+
+            <h5 class="mt-3">Hair Treatment</h5>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 99%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <h5 class="mt-3">Facial Treatment</h5>
+            <div class="progress">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 93%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <h5 class="mt-3">Bridal</h5>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 96%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <h5 class="mt-3">Nail Art</h5>
+            <div class="progress">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 88%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- contact -->
+        <div class="row justify-content-evenly pt-2 pb-5" style="background-color: #f1f1f1;">
+          <div class="col-md-5 mt-5">
+            <h3 class="mb-4">Contact Form</h3>
+            <form>
+
+              <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+
+              <div class="mb-3">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+
+              <div class="mb-3">
+                <label for="inputAddress2" class="form-label">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+
+              <div class="mb-3">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+
+              <div class="mb-3">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Massage</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+             
+              
+              <button type="submit" class="btn btn-primary border 0" style="background-color: coral;">Submit</button>
+            </form>
+          </div>
+          <div class="col-md-5 mt-5">
+            <h3 class="mb-4">Address</h3>
+            <p>"Rachayita Beauty Lab",<br> Subhashnagar Street No.4,<br> Rameshvar Chok,<br>
+             Behind Thw City Center,<br> Raiya Road, Rajkot-360007  </p>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1305.052070161282!2d70.76789947447746!3d22.306584481518016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959c97e7f6fe759%3A0x9cf5344443a16ccc!2sRaiya%20Rd%2C%20Rajkot%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1696263821894!5m2!1sen!2sin" style="width: 100%;" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+        <!-- FAQ -->
+        <div class="row justify-content-evenly pt-5 pb-5" style="background-color: coral;">
+          <div class="col-md-10">
+            <h3 class="text-center pb-4">FAQ</h3>
+            <div class="accordion accordion-flush border 5" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    What is Hair Treatment?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Hair treatment refers to various procedures and products used to improve the health and appearance of hair. These treatments can include anything from basic hair care routines like washing and conditioning to more specialized treatments such as deep conditioning, hair masks, hot oil treatments, and chemical treatments like coloring, perming, or straightening. Hair treatments are designed to address specific issues such as dryness, damage, frizz, or hair loss, and they aim to restore and maintain the overall health of the hair. The type of treatment needed depends on individual hair type and specific concerns.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    What is Facial Treatment?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Facial treatment refers to a range of beauty and skincare procedures designed to improve the overall health and appearance of the face. These treatments are typically performed in salons, spas, or skincare clinics by trained professionals. Facial treatments often include cleansing, exfoliating, extracting impurities, massaging, applying masks, and moisturizing the skin. The specific procedures involved can vary widely based on the individual's skin type and concerns.<br><br>
+
+                    Facial treatments can target various skin issues such as acne, aging signs, dryness, uneven skin tone, and texture. They aim to cleanse the skin, remove dead skin cells, unclog pores, promote circulation, and nourish the skin, leaving it refreshed and revitalized. Some treatments also incorporate specialized techniques like microdermabrasion, chemical peels, or facial massages to enhance their effectiveness. It's essential to consult with a skincare professional to determine the most suitable facial treatment for your specific skin needs.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    What is Nail Art?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Nail art is a creative way to decorate nails. It is a type of artwork that can be done on fingernails and toenails, usually after manicures or pedicures. Nail art can encompass a wide range of designs and techniques, including painting, drawing, adding decals, applying gems or glitter, and using different colors and patterns to enhance the nails' appearance.<br><br>
+
+                    Nail artists use various tools and materials such as nail polish, nail brushes, dotting tools, nail stickers, and rhinestones to create intricate and eye-catching designs. Nail art allows individuals to express their creativity and personal style through their nails, making it a popular form of self-expression and fashion accessory. Nail salons and dedicated nail artists often offer a wide variety of nail art designs to cater to different tastes and preferences.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer -->
+        <div class="row justify-content-evenly bg-dark text-white pt-2 pb-5 text-center">
+          <div class="col-md-3 pt-4">
+            <h3 class="pb-3">Rachayita Beauty Lab</h3>
+            <p>Personalized Services: Offer personalized services tailored to individual clients' needs. Everyone has different skin types, hair textures, and preferences, so customized treatments can make a significant difference.</p>
+          </div>
+          <div class="col-md-3 pt-4">
+            <h3 class="pb-3">Important Links</h3>
+            <p>
+              <a href="#" class="link-light text-decoration-none">Home</a><br>
+              <a href="#" class="link-light text-decoration-none">About Us</a><br>
+              <a href="#" class="link-light text-decoration-none">Client</a><br>
+              <a href="#" class="link-light text-decoration-none">Services</a><br>
+              <a href="#" class="link-light text-decoration-none">Portfolio</a>
+            </p>
+          </div>
+          <div class="col-md-3 pt-4">
+            <h3 class="pb-3">Contact Us</h3>
+            <p>"Rachayita Beauty Lab",<br> Subhashnagar Street No.4,<br> Rameshvar Chok,<br>
+              Behind Thw City Center,<br> Raiya Road, Rajkot-360007  </p>
+          </div>
+        </div>
+
+        <!-- Copy Right -->
+        <div class="row text-center bg-secondary text-white p-2" >
+          <div class="col-12">
+            <p>@Copyright 1999-2023 by Rachayita Beauty Lab. All Rights Reserved</p>
+          </div>
+        </div>
+        <!-- container end -->
+      </div>
+
+      <!-- Our Speciality -->
+      
+    
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+   
+  </body>
+</html>
